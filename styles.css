@@ -1,0 +1,89 @@
+body {
+    background-color: hsl(0, 0%, 20%);
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+#master-head {
+    height: 60px;
+    width: 100%;
+    margin: auto;
+    background-color: hsl(0, 0%, 0%);
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+}
+#icon {
+    background-color: blue;
+    width: 100px;
+    height: 80%;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    left: 1%;
+}
+#search-bar {
+    background-color: green;
+    display: inline-block;
+    width: 35%;
+    height: 80%;
+    margin: auto;
+}
+#profile {
+    background-color: blue;
+    width: 120px;
+    height: 80%;
+    display: inline-block;
+    position: absolute;
+    left: 99%;
+    transform: translateX(-100%);
+}
+#main{
+    margin-top: 80px;
+    margin-left: 5%;
+    background-color: blue;
+    width: 1280px;
+    height: auto;
+    float: left;
+}
+#description {
+    background-color: burlywood;
+    padding: 10px;
+}
+#description p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2 {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px auto;
+    padding: 0px;
+}
+#recomended {   
+    margin-top: 80px;
+    margin-right: 5%;
+    width: 400px;
+    height: auto;
+    background-color: yellow;
+    float: right;
+ 
+}
+#recomended-video {
+    background-color: red;
+    height: 94px;
+    margin-bottom: 10px;
+}
+#recomended-video img {
+    float: left;
+}
+#recomended-video p {
+    color: white;
+    background-color: black;
+    width: 55%;
+    height: 94px;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
